@@ -1,0 +1,250 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnalyticsFrameWork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ClevertapManagerDelegate",
+        "printedName": "ClevertapManagerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AnalyticsFrameWork24ClevertapManagerDelegateP5setupyyF",
+            "mangledName": "$s18AnalyticsFrameWork24ClevertapManagerDelegateP5setupyyF",
+            "moduleName": "AnalyticsFrameWork",
+            "genericSig": "<τ_0_0 where τ_0_0 : AnalyticsFrameWork.ClevertapManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : AnalyticsFrameWork.ClevertapManagerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendGGXWebEvent",
+            "printedName": "sendGGXWebEvent(eventName:eventGGXData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AnalyticsFrameWork24ClevertapManagerDelegateP15sendGGXWebEvent9eventName0J7GGXDataySS_SDys11AnyHashableVypGSgtF",
+            "mangledName": "$s18AnalyticsFrameWork24ClevertapManagerDelegateP15sendGGXWebEvent9eventName0J7GGXDataySS_SDys11AnyHashableVypGSgtF",
+            "moduleName": "AnalyticsFrameWork",
+            "genericSig": "<τ_0_0 where τ_0_0 : AnalyticsFrameWork.ClevertapManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : AnalyticsFrameWork.ClevertapManagerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18AnalyticsFrameWork24ClevertapManagerDelegateP",
+        "mangledName": "$s18AnalyticsFrameWork24ClevertapManagerDelegateP",
+        "moduleName": "AnalyticsFrameWork",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ClevertapManager",
+        "printedName": "ClevertapManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ClevertapManager",
+                "printedName": "AnalyticsFrameWork.ClevertapManager",
+                "usr": "s:18AnalyticsFrameWork16ClevertapManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18AnalyticsFrameWork16ClevertapManagerC6sharedACvpZ",
+            "mangledName": "$s18AnalyticsFrameWork16ClevertapManagerC6sharedACvpZ",
+            "moduleName": "AnalyticsFrameWork",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClevertapManager",
+                    "printedName": "AnalyticsFrameWork.ClevertapManager",
+                    "usr": "s:18AnalyticsFrameWork16ClevertapManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AnalyticsFrameWork16ClevertapManagerC6sharedACvgZ",
+                "mangledName": "$s18AnalyticsFrameWork16ClevertapManagerC6sharedACvgZ",
+                "moduleName": "AnalyticsFrameWork",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AnalyticsFrameWork16ClevertapManagerC5setupyyF",
+            "mangledName": "$s18AnalyticsFrameWork16ClevertapManagerC5setupyyF",
+            "moduleName": "AnalyticsFrameWork",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendGGXWebEvent",
+            "printedName": "sendGGXWebEvent(eventName:eventGGXData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AnalyticsFrameWork16ClevertapManagerC15sendGGXWebEvent9eventName0I7GGXDataySS_SDys11AnyHashableVypGSgtF",
+            "mangledName": "$s18AnalyticsFrameWork16ClevertapManagerC15sendGGXWebEvent9eventName0I7GGXDataySS_SDys11AnyHashableVypGSgtF",
+            "moduleName": "AnalyticsFrameWork",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18AnalyticsFrameWork16ClevertapManagerC",
+        "mangledName": "$s18AnalyticsFrameWork16ClevertapManagerC",
+        "moduleName": "AnalyticsFrameWork",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

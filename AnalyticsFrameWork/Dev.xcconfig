@@ -1,0 +1,12 @@
+//
+//  Dev.xcconfig
+//  AnalyticsFrameWork
+//
+//  Created by Tapash Mollick on 28/02/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+CLEVER_TAP_ACCOUNT_ID  = "TEST-6b0-25a"
+CLEVER_TAP_TOKEN = "TEST-75R-W86-946Z"

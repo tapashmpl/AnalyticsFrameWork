@@ -1,0 +1,11 @@
+framework module AnalyticsFrameWork {
+  umbrella header "AnalyticsFrameWork.h"
+
+  export *
+  module * { export * }
+}
+
+module AnalyticsFrameWork.Swift {
+  header "AnalyticsFrameWork-Swift.h"
+  requires objc
+}
