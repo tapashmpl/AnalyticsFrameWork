@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CleverTapAccountID</key>
+    <string>$(CLEVER_TAP_ACCOUNT_ID)</string>
+    <key>CleverTapToken</key>
+    <string>$(CLEVER_TAP_TOKEN)</string>
+	<key>CleverTapUseIFA</key>
+	<false/>
+</dict>
+</plist>
